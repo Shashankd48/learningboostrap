@@ -1,0 +1,25 @@
+body{
+    background: url(landing.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.hero{
+    width: 100px;
+    /* height: 90vh; */
+    font-size: 5.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 50px;
+    letter-spacing: 5px;
+    font-family: 'Baloo 2', cursive;
+
+}
+.color-pink{
+    color: rgb(245, 22, 130);
+}
+@media(max-width: 546px){
+    .hero{
+        margin-left: 22px;
+        font-size: 4.0em;
+    }
+}

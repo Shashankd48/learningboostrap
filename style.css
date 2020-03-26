@@ -1,0 +1,81 @@
+body{
+    /* background-image: url(https://images.pexels.com/photos/2522657/pexels-photo-2522657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    /* background-repeat: repeat; */
+    background-position: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+.myArea{
+    backdrop-filter: grayscale(100%);
+    /* color: white; */
+    height: 100vh;
+}
+.myArea h1{
+    font-size: 5rem;
+    color: #F3B431;
+}
+ul li{
+    padding: 10px 20px;
+    border: 2px solid #4d4c4c;
+    cursor: pointer;
+}
+ul li:hover{
+    color: #ffffff;
+    background-color: #4d4c4c;
+    border: 2px solid #4d4c4c;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all  0.25s ease-out;
+    -o-transition: all  0.25s ease-out;
+    transition: all  0.25s ease-out;
+}
+
+.test01{
+    /* for shadow and animation */
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    scroll-snap-align: start;
+}
+.test01:hover{
+    -webkit-transform: translateY(0px) scale(1.1);
+    transform: translateY(0px) scale(1.1);
+    -webkit-transition: transform 0.25s ease-out;
+    -moz-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+}
+
+.wrap{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.pop{
+    width: 340px;
+    height: 300px;
+    padding: 15px 13px;
+    box-shadow: 0 3px 3px 3px rgba(10, 10, 10, 0.3);
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    scroll-snap-align: start;
+}
+.pop:hover{
+    -webkit-transform: translateY(0px) scale(1.1);
+    transform: translateY(0px) scale(1.1);
+    -webkit-transition: transform 0.25s ease-out;
+    -moz-transition: transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+}
+.square{
+    width: 400px;
+    height: 400px;
+}
+.foot{
+    height: 100px;
+}
+.code{
+    width: 300px;
+    height: 300px;
+}

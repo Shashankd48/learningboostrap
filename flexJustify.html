@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: #FD7272;
+        }
+        .row-h{
+            height: 130px;
+            background-color: #0097e6;
+        }
+        .col-h{
+            height: 70px;
+        }
+        .bg-mattpurple{
+            background-color: #8c7ae6;
+        }
+        .bg-navel{
+            background-color: #40739e;
+        }
+        .bg-nahohanchangold{
+            background-color: #e1b12c;
+        }
+        @media(max-width: 576px){
+            .row-h{
+                height: 230px;
+            }
+        }
+    </style>
+<title>Flex Justify</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 text-white my-5">Flex Justify</h1>
+        <div class="row my-5 row-h text-white justify-content-center px-3">
+            <div class="col-4 col-h bg-mattpurple ">Lorem ipsum dolor sit amet.</div>
+            <div class="col-4 col-h bg-nahohanchangold ">Lorem ipsum dolor sit amet.</div>
+            <div class="col-4 col-h bg-navel ">Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <h1 class="display-4 text-white my-5">Justify-around</h1>
+        <div class="row my-5 row-h text-white justify-content-around align-items-center px-3">
+            <div class="col-lg-4 col-sm-12 col-h bg-mattpurple">Lorem ipsum dolor sit amet.</div>
+            <!-- <div class="col-lg-4 col-sm-12 col-h bg-nahohanchangold ">Lorem ipsum dolor sit amet.</div> -->
+            <div class="col-lg-4 col-sm-12 col-h bg-navel align-items-center">
+                <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                <span class="lead">text-center</span>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
